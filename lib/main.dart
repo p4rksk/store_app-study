@@ -26,7 +26,7 @@ class StorePage extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.all(25.0),
+              padding: const EdgeInsets.all(25.0),//패딩 값 설정으로 상,하,좌,우로 사용
               child: Row(children: [
                 Text("Woman", style: TextStyle(fontWeight: FontWeight.bold),),
                 Spacer(),//위젯간 사이 조정하는데 사용
