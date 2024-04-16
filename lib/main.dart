@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,6 +39,8 @@ class StorePage extends StatelessWidget {
               ],
               ),
             ),
+            Expanded(child: Image.asset("assets/bag.jpeg", fit: BoxFit.cover,)),
+            Image.asset("assets/cloth.jpeg", fit: BoxFit.cover,),
           ],
         ),
       ),
